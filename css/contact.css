@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/images/boooks-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(1.5px);
+}
+
+nav{
+    background-image: url(/images/logo.png);
+    backdrop-filter: blur(14px);
+    background-color: #ffffff;
+    height: 10vh;
+    box-shadow: 1px 2px 9px #333
+}
+.navbarLinks{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.navbarList{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-emphasis-color: rgb(0, 0, 0);
+    font-size: x-large;
+    padding-top: 21px;
+    padding-right: 3px;
+    font-style: oblique;
+    transition: 0.2s ease-in-out;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+.navbarList:hover{
+  color: yellow;
+  transform: scale(1.5);
+  text-decoration-line: underline;
+}
+.title{
+    display: flex;
+    font-size: 6vh;
+    margin-top: 11vh;
+    line-height: 8vh;
+    font-style: oblique;
+    color: #ee9d2c;
+    text-shadow: 0 3px 1px black, 1px 3px 2px BLACK;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.divform{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.divform form {
+    border: 1px solid #ffffff77;
+    background-color: #ffffff62;
+    box-shadow: 1px 2px 7px rgba(255, 255, 255, 0.589),
+                1px 4px 9px #ffffff8f;
+    border-radius: 7px;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;    
+}
+
+
+form label{
+    color: #ee9d2c;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 11px;
+}
+
+form input{
+    height: 5vh;
+    margin: 2vh;
+    border-radius: 7px;
+    border: none;
+    background-color: #333333e3;
+    color: white;
+}
+
+#remarks{
+    
+    height: 15vh;
+}
+
+#submit-btn{
+    background-color: #ee9d2c;
+    font-size: large;
+    height: 7vh;
+    box-shadow: 1px 1px 9px black,
+                1px 1px 11px #ee9d2c;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#submit-btn:hover{
+    background-color: #be6806;
+}

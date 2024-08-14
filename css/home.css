@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-size: cover; */
+    background-image: url(/images/lo\ go.png);
+    backdrop-filter: blur(3px);
+}
+
+
+nav{
+    background-image: url(/images/logo.png);
+    backdrop-filter: blur(14px);
+    background-color: #ffffff;
+    height: 10vh;
+    box-shadow: 1px 2px 9px #333
+}
+.navbarLinks{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.navbarList{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-emphasis-color: rgb(0, 0, 0);
+    font-size: x-large;
+    padding-top: 21px;
+    padding-right: 3px;
+    font-style: oblique;
+    transition: 0.2s ease-in-out;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+.navbarList:hover{
+  color: yellow;
+  transform: scale(1.5);
+  text-decoration-line: underline;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+    color: #000000;
+    text-align: right;
+}
+
+.store-name{
+    font-size: 85px;
+    font-style: oblique;
+    color: #ee9d2ce8;
+    text-shadow: 0 3px 3px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.store-description{
+    font-size: 30px;
+    text-shadow: 0 0 2px black;
+    
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.book {
+    background-color: #eeeeee;
+    border: 1px solid transparent; /* Start with a transparent border */
+    border-radius: 7px;
+    box-shadow: 2px 7px 19px rgba(0, 0, 0, 0.685);
+    margin: 25px;
+    padding: 10px;
+    width: 200px;
+    transition: transform 0.3s ease, border-color 0.3s ease; /* Add border-color transition */
+}
+
+.book:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 7px 19px rgba(0, 0, 0, 0.2);
+    border-color: #3333338a ; /* Change the border color on hover */
+}
+
+.book img {
+    max-width: 100%;
+    box-shadow: 0 0 4px black;
+    object-fit: cover;
+    height: 55vh;
+    border-radius: 7px;
+}
+
+.book h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.book p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.book span {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.book button{
+    height: 7vh;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+.book button:hover{
+    background-color: #33333398;
+}
+

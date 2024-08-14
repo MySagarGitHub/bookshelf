@@ -1,0 +1,37 @@
+.book {
+    background-color: #f9f9f9;
+    border: 1px solid transparent; /* Start with a transparent border */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    transition: transform 0.3s ease, border-color 0.3s ease; /* Add border-color transition */
+}
+
+.book:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-color: #333; /* Change the border color on hover */
+}
+
+.book img {
+    max-width: 100%;
+}
+
+.book h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.book p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.book span {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
